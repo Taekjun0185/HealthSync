@@ -1,4 +1,4 @@
-package com.healthsync.project.security.security;
+package com.healthsync.project.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

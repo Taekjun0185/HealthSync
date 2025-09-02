@@ -1,4 +1,4 @@
-package com.healthsync.project.security.security;
+package com.healthsync.project.security;
 
 import com.healthsync.project.account.user.domain.User;
 import com.healthsync.project.account.user.repository.UserRepository;

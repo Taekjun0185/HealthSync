@@ -1,9 +1,9 @@
-package com.healthsync.project.security.security.auth;
+package com.healthsync.project.security.auth;
 
 import com.healthsync.project.account.user.domain.User;
 import com.healthsync.project.account.user.repository.UserRepository;
-import com.healthsync.project.security.security.dto.MeResponse;
-import com.healthsync.project.security.security.dto.RegisterRequest;
+import com.healthsync.project.security.dto.MeResponse;
+import com.healthsync.project.security.dto.RegisterRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

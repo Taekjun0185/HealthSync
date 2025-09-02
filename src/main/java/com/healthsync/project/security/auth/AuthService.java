@@ -1,8 +1,8 @@
-package com.healthsync.project.security.security.auth;
+package com.healthsync.project.security.auth;
 
 import com.healthsync.project.account.user.domain.User;
 import com.healthsync.project.account.user.repository.UserRepository;
-import com.healthsync.project.security.security.dto.RegisterRequest;
+import com.healthsync.project.security.dto.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.healthsync.project.security.security.dto;
+package com.healthsync.project.security.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
