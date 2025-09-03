@@ -1,3 +1,15 @@
+/* 전역 리셋: 풀블리드 레이아웃용 */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#root {
+  max-width: none;  /* Vite 템플릿의 1280px 제한 제거 */
+  padding: 0;       /* 가운데 패딩 제거 */
+}
+* { box-sizing: border-box; }
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
